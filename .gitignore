@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.env
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+.notebooks_cache/
+*.nb.html
+
+# Data
+data/raw/
+data/interim/
+data/external/
+*.parquet
+*.csv
+*.feather
+*.xlsx
+*.zip
+*.pkl
+*.joblib
+
+# Models
+models/
+*.onnx
+*.h5
+
+# Reports
+reports/*.html
+
+# VSCode / OS
+.vscode/
+*.swp
+Thumbs.db
